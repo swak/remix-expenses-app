@@ -1,4 +1,3 @@
 export default function AddExpensePage() {
-    return <div>Add ExpensePage</div>;
-  }
-  
+  return <div>Add ExpensePage</div>;
+}
