@@ -5,7 +5,7 @@ import { getExpenses } from '../data/expenses.server';
 
 export default function ExpensePage() {
   const expenses = useLoaderData();
-
+  console.log("Rendering Expenses Page");
 
   return (
     <>
