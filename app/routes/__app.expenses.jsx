@@ -28,6 +28,7 @@ export default function ExpensePage() {
 }
 
 export function loader() {
+  console.log('EXPENSES LOADER');
   return getExpenses();
 }
 

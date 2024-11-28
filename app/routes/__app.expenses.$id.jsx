@@ -20,6 +20,7 @@ export default function UpdateExpansesPage() {
 }
 
 export async function loader({params}) {
+  console.log('EXPENSE ID LOADER');
   const expenseId = params.id;
   const expense = await getExpense(expenseId);
   return expense;
